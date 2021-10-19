@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    background-color: white;
+    font-family: "Roboto";
+}
+@media screen and (min-width:976px) {
+    .navbar .navbar-nav .nav-link.active {
+        background-color: black;
+    }
+}
+
+
+.imagen1 {
+    background-image: url("https://pbblogassets.s3.amazonaws.com/uploads/2020/07/13110748/Build-an-editing-PC.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+}
+
+.imagen2 {
+    background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2017/09/DSC09572-800x534.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+}
+
+.imagen3 {
+    background-image: url("https://cdn.arstechnica.net/wp-content/uploads/sites/3/2017/09/DSC09569.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+}
+.titulo-carrusel {
+    color: white;
+    background: #000;
+    text-align: center;
+}
+.texto-carrusel {
+    color: white;
+    background-color: #000;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 2px 3px 5px #ccc;
+}
